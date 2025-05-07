@@ -1,5 +1,2 @@
-spring.application.name=user-service
-spring.profiles.active=dev
-spring.cloud.config.uri=http://localhost:8888
-spring.config.import=configserver:
-management.endpoints.web.exposure.include=refresh
+server.port=8081
+welcome.message=Welcome from Default Profile
